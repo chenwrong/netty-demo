@@ -16,7 +16,7 @@ import io.netty.handler.stream.ChunkedWriteHandler;
 import java.net.Socket;
 
 public class MyServer {
-    // 11
+    // hot-fix
     public static void main(String[] args) throws Exception{
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
