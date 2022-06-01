@@ -18,6 +18,7 @@ import java.net.Socket;
 public class MyServer {
     // master
     // hot-fix
+    // haha
     public static void main(String[] args) throws Exception{
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
